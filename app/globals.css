@@ -132,15 +132,19 @@ body {
     border-color: rgba(255, 255, 255, 0.14);
   }
 
-  /* Laptop üstüne denk gelen paragraflar — eski gri renk + hafif blur zemin */
-  .copy-on-canvas {
-    color: var(--ink-muted);
+  /* Laptop üstüne denk gelen metin / skill pill alanı */
+  .copy-on-canvas,
+  .tech-pills {
     padding: 0.7rem 1rem;
     border-radius: 0.75rem;
     background: rgba(0, 0, 0, 0.52);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  .copy-on-canvas {
+    color: var(--ink-muted);
   }
 }
 

@@ -96,7 +96,7 @@ export default function ScrollSections() {
             <br />
             ölçeklenebilir sistemler.
           </h2>
-          <div className="mt-6 flex flex-wrap gap-2 max-w-md">
+          <div className="tech-pills mt-6 flex flex-wrap gap-2 max-w-md">
             {TECHNOLOGIES.map((tech) => (
               <span key={tech} className="tech-pill">
                 {tech}
