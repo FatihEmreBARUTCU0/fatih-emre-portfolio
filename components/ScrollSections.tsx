@@ -38,7 +38,7 @@ export default function ScrollSections() {
             Barutçu
           </h1>
           <p
-            className="mt-6 max-w-md mx-auto lg:mx-0 text-sm md:text-base text-muted leading-relaxed"
+            className="copy-on-canvas mt-6 max-w-md mx-auto lg:mx-0 text-sm md:text-base leading-relaxed"
             data-hero-text
           >
             Üretime hazır, modern web deneyimleri geliştiriyorum. Next.js ile
@@ -69,7 +69,7 @@ export default function ScrollSections() {
             <br />
             özenle inşa ediyorum.
           </h2>
-          <p className="mt-5 text-sm md:text-base text-muted leading-relaxed">
+          <p className="copy-on-canvas mt-5 text-sm md:text-base leading-relaxed">
             İzmir merkezli Full Stack Developer&apos;ım. Next.js ve React ile arayüz;
             Node.js, Express ve MongoDB/PostgreSQL ile API ve veri katmanı
             geliştiriyorum. E-ticaret, gerçek zamanlı uygulamalar ve AI
@@ -116,7 +116,7 @@ export default function ScrollSections() {
         <div className="projects-panel">
           <p className="eyebrow mb-3">Yapılmış İşler</p>
           <h2 className="section-title mb-2">Teslim edilen projeler.</h2>
-          <p className="text-sm text-muted mb-5 max-w-lg">
+          <p className="copy-on-canvas text-sm mb-5 max-w-lg">
             Anlaşma sağlanmış müşteri işleri. Canlıya alınmış veya teslim sürecindeki projeler.
           </p>
           <div className="project-grid project-grid--delivered">
@@ -132,7 +132,7 @@ export default function ScrollSections() {
         <div className="projects-panel">
           <p className="eyebrow mb-3">Demo Siteler</p>
           <h2 className="section-title mb-2">Kişisel projeler.</h2>
-          <p className="text-sm text-muted mb-5 max-w-lg">
+          <p className="copy-on-canvas text-sm mb-5 max-w-lg">
             Kişisel projeler ve sektörel ön çalışma konseptleri. Gerçek marka isimleri kullanılmadan sunulmuştur.
           </p>
           <div className="project-grid">
@@ -153,7 +153,7 @@ export default function ScrollSections() {
               <br />
               <em>bir şeyler.</em>
             </h2>
-            <p className="contact-lead mt-5 text-sm text-muted leading-relaxed max-w-sm mx-auto lg:ml-auto lg:mr-0">
+            <p className="copy-on-canvas mt-5 text-sm leading-relaxed max-w-sm mx-auto lg:ml-auto lg:mr-0">
               Freelance projeler ve tam zamanlı fırsatlara açığım.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-end items-center">

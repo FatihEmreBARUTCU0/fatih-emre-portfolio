@@ -6,8 +6,8 @@
   --bg: #000000;
   --bg-elevated: #1d1d1f;
   --ink: #f5f5f7;
-  --ink-muted: #aeaeb3;
-  --ink-subtle: #75757a;
+  --ink-muted: #a1a1a6;
+  --ink-subtle: #6e6e73;
   --cta-bg: #f5f5f7;
   --cta-text: #1d1d1f;
   --cta-hover: #e8e8ed;
@@ -92,9 +92,14 @@ body {
     margin-top: 62vh;
   }
 
-  .contact-lead {
-    color: #b0b0b5;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.85);
+  /* 3D laptop üzerine binen paragraflar — gri/beyaz değil, turuncu */
+  .copy-on-canvas {
+    color: var(--warm-bright);
+    text-shadow: 0 0 32px rgba(0, 0, 0, 0.75);
+  }
+
+  .section--projects .projects-panel {
+    margin-top: 6vh;
   }
 
   /* Proje bölümleri — küçük kartlar, canvas spacer yok */
@@ -159,6 +164,12 @@ body {
 .body-text {
   color: var(--ink-muted);
   font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.copy-on-canvas {
+  color: var(--ink-muted);
+  font-size: inherit;
   line-height: 1.65;
 }
 
