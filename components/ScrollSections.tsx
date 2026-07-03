@@ -146,14 +146,14 @@ export default function ScrollSections() {
       {/* 6. İLETİŞİM */}
       <section id="iletisim" data-section="final" className="section relative">
         <div className="w-full flex items-center justify-center lg:justify-end">
-          <div className="section-copy section-copy--over-canvas text-center lg:text-right max-w-[85%] lg:max-w-[min(520px,46vw)] w-full">
+          <div className="text-center lg:text-right max-w-[85%] lg:max-w-[min(520px,46vw)] w-full">
             <p className="eyebrow mb-4">03 — İletişim</p>
             <h2 className="final-title">
               Birlikte üretelim
               <br />
               <em>bir şeyler.</em>
             </h2>
-            <p className="mt-5 text-sm text-muted leading-relaxed max-w-sm mx-auto lg:ml-auto lg:mr-0">
+            <p className="contact-lead mt-5 text-sm text-muted leading-relaxed max-w-sm mx-auto lg:ml-auto lg:mr-0">
               Freelance projeler ve tam zamanlı fırsatlara açığım.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-end items-center">

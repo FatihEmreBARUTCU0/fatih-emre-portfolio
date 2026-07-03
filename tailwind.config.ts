@@ -7,8 +7,8 @@ const config: Config = {
       colors: {
         canvas: "#000000",
         ink: "#f5f5f7",
-        muted: "#b5b5ba",
-        subtle: "#8a8a8f",
+        muted: "#aeaeb3",
+        subtle: "#75757a",
         warm: "#e8a050",
         "warm-bright": "#f5b865",
         "warm-muted": "#d4924a",
