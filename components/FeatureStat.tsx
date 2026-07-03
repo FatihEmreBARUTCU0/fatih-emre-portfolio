@@ -9,7 +9,7 @@ export default function FeatureStat({ label, value, unit }: FeatureStatProps) {
     <div className="flex flex-col items-end text-right">
       <span
         className="text-[10px] uppercase tracking-[0.16em] leading-tight"
-        style={{ color: "var(--ink-subtle)" }}
+        style={{ color: "var(--warm-muted)" }}
       >
         {label}
       </span>

@@ -35,7 +35,7 @@ export default function ScrollSections() {
           <h1 className="headline" data-hero-text>
             Fatih Emre
             <br />
-            Barutcu
+            Barutçu
           </h1>
           <p
             className="mt-6 max-w-md mx-auto lg:mx-0 text-sm md:text-base text-muted leading-relaxed"
@@ -54,9 +54,9 @@ export default function ScrollSections() {
             </a>
           </div>
         </div>
-        <div className="hidden lg:flex absolute bottom-10 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-subtle text-xs tracking-wider">
+        <div className="hidden lg:flex absolute bottom-10 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-xs tracking-wider" style={{ color: "var(--warm-muted)" }}>
           <span>Keşfetmek için kaydır</span>
-          <span className="block w-px h-8 bg-white/15" />
+          <span className="block w-px h-8" style={{ background: "rgba(232, 160, 80, 0.35)" }} />
         </div>
       </section>
 
@@ -147,7 +147,7 @@ export default function ScrollSections() {
       <section id="iletisim" data-section="final" className="section relative">
         <div className="w-full flex items-center justify-center lg:justify-end">
           <div className="text-center lg:text-right max-w-[85%] lg:max-w-[min(520px,46vw)] w-full">
-            <p className="eyebrow eyebrow--warm mb-4">03 — İletişim</p>
+            <p className="eyebrow mb-4">03 — İletişim</p>
             <h2 className="final-title">
               Birlikte üretelim
               <br />

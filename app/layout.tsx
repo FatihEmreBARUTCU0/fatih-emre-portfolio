@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fatih Emre Barutcu — Full Stack Developer",
+  title: "Fatih Emre Barutçu — Full Stack Developer",
   description:
     "İzmir merkezli Full Stack Developer. Next.js, React ve Node.js ile üretime hazır web deneyimleri geliştiriyorum.",
 };

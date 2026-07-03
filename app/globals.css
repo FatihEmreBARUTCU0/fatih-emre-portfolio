@@ -11,10 +11,10 @@
   --cta-bg: #f5f5f7;
   --cta-text: #1d1d1f;
   --cta-hover: #e8e8ed;
-  --warm: #d4a574;
-  --warm-bright: #e8c080;
-  --warm-muted: #a8864a;
-  --link: #d4a574;
+  --warm: #e8a050;
+  --warm-bright: #f5b865;
+  --warm-muted: #d4924a;
+  --link: #e8a050;
   --live: #30d158;
   --surface: rgba(255, 255, 255, 0.04);
   --surface-elevated: rgba(255, 255, 255, 0.07);
@@ -148,10 +148,6 @@ body {
   letter-spacing: 0.16em;
   font-size: 11px;
   font-weight: 500;
-  color: var(--ink-subtle);
-}
-
-.eyebrow--warm {
   color: var(--warm-muted);
 }
 
@@ -159,6 +155,16 @@ body {
   color: var(--ink-muted);
   font-size: 0.9375rem;
   line-height: 1.65;
+}
+
+.nav-link {
+  color: var(--warm-muted);
+  transition: color 0.25s ease, opacity 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link--active {
+  color: var(--warm-bright);
 }
 
 .cta {
@@ -208,8 +214,8 @@ body {
 
 .cta-outline:hover {
   transform: scale(1.02);
-  border-color: rgba(255, 255, 255, 0.35);
-  background: var(--surface);
+  border-color: rgba(232, 160, 80, 0.45);
+  background: rgba(232, 160, 80, 0.06);
 }
 
 .tech-pill {
@@ -301,14 +307,14 @@ body {
 }
 
 .browser-card--featured {
-  border-color: rgba(212, 165, 116, 0.42);
+  border-color: rgba(232, 160, 80, 0.42);
   box-shadow:
-    0 0 0 1px rgba(212, 165, 116, 0.1),
+    0 0 0 1px rgba(232, 160, 80, 0.1),
     0 20px 56px rgba(0, 0, 0, 0.5);
 }
 
 .browser-card--featured:hover {
-  border-color: rgba(212, 165, 116, 0.55);
+  border-color: rgba(232, 160, 80, 0.55);
 }
 
 .browser-card__chrome {
@@ -501,12 +507,12 @@ body {
   margin-top: 0.85rem;
   font-size: 13px;
   font-weight: 500;
-  color: var(--ink-muted);
+  color: var(--warm-muted);
   transition: color 0.25s ease;
 }
 
 .browser-card:hover .browser-card__cta {
-  color: var(--ink);
+  color: var(--warm-bright);
 }
 
 .browser-card--featured .browser-card__cta {

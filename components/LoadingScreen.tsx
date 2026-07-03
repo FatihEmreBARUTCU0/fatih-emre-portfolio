@@ -46,7 +46,7 @@ export default function LoadingScreen() {
       aria-live="polite"
     >
       <div className="loading-screen__inner">
-        <div className="loading-screen__logo">F. Emre Barutcu</div>
+        <div className="loading-screen__logo">F. Emre Barutçu</div>
         <div className="loading-screen__caption">Portföy yükleniyor</div>
         <div className="loading-screen__bar" aria-hidden>
           <div className="loading-screen__bar-fill" />
