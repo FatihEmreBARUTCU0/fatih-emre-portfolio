@@ -146,7 +146,7 @@ export default function ScrollSections() {
       {/* 6. İLETİŞİM */}
       <section id="iletisim" data-section="final" className="section relative">
         <div className="w-full flex items-center justify-center lg:justify-end">
-          <div className="text-center lg:text-right max-w-[85%] lg:max-w-[min(520px,46vw)] w-full">
+          <div className="section-copy section-copy--over-canvas text-center lg:text-right max-w-[85%] lg:max-w-[min(520px,46vw)] w-full">
             <p className="eyebrow mb-4">03 — İletişim</p>
             <h2 className="final-title">
               Birlikte üretelim
