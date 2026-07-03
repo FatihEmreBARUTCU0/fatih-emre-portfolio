@@ -80,38 +80,56 @@ body {
     padding: 14vh 6vw 4vh 6vw;
   }
 
-  .section :is(h1, h2) {
-    margin-bottom: 42vh;
+  /*
+   * Başlık sonrası boşluk — gövde metni 3D laptop bandının (30–72vh) altına insin.
+   * margin-bottom yerine ::after: proje bölümlerinde de tutarlı çalışır.
+   */
+  .section :is(h1, h2, .headline, .headline-md, .section-title, .final-title)::after {
+    content: "";
+    display: block;
+    height: 48vh;
   }
 
-  [data-section="final"] h2 {
-    margin-bottom: 0.5rem;
+  .section :is(h1, h2) {
+    margin-bottom: 0;
   }
 
   [data-section="final"] > div:first-child {
-    margin-top: 62vh;
+    margin-top: 0;
+    padding-top: 10vh;
   }
 
-  /* 3D laptop üzerine binen paragraflar — gri/beyaz değil, turuncu */
-  .copy-on-canvas {
-    color: var(--warm-bright);
-    text-shadow: 0 0 32px rgba(0, 0, 0, 0.75);
+  [data-section="final"] h2 {
+    margin-bottom: 0;
   }
 
-  .section--projects .projects-panel {
-    margin-top: 6vh;
+  [data-section="final"] .final-title::after {
+    height: 50vh;
   }
 
-  /* Proje bölümleri — küçük kartlar, canvas spacer yok */
   .section--projects {
     align-items: flex-start;
-    padding-top: 12vh;
-    padding-bottom: 8vh;
+    padding: 10vh 6vw 8vh;
     min-height: auto;
   }
 
   .section--projects :is(h1, h2) {
     margin-bottom: 0;
+  }
+
+  /* Bölüm viewport tepesine gelince panel içeriği canvas altında başlasın */
+  .section--projects .projects-panel {
+    width: 100%;
+    padding-top: 64vh;
+  }
+
+  .section--projects .section-title::after {
+    display: none;
+  }
+
+  .info-card {
+    background: rgba(8, 8, 8, 0.96);
+    border-color: rgba(255, 255, 255, 0.14);
   }
 }
 
@@ -711,4 +729,11 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Mobil: laptop üstüne kalan metin — turuncu (dosya sonunda, override garantisi) */
+@media (max-width: 1024px) {
+  .copy-on-canvas {
+    color: var(--warm-bright);
+  }
 }

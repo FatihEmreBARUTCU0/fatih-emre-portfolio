@@ -16,7 +16,7 @@ export default function Scene() {
 
   return (
     <Canvas
-      dpr={isMobile ? [0.85, 1.1] : [1, 2]}
+      dpr={isMobile ? [0.75, 1] : [1, 2]}
       gl={{
         antialias: !isMobile,
         alpha: true,
